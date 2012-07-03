@@ -1,0 +1,36 @@
+.ui-progressbar { height: 1.2em; text-align: left; overflow: hidden; }
+.ui-progressbar .ui-progressbar-value { height: 100%; }
+
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl,
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr,
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl,
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+	-moz-border-radius:    3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius:  3px;
+	border-radius:         3px;
+}
+
+.ui-widget-content {
+	border: 1px solid #e1e1e1;
+	float: left;
+	width: 100%;
+	margin-bottom: 0.5em;
+}
+.ui-widget-header {
+	color: #ffffff; font-weight: bold;
+	-moz-border-radius:    0px;
+	-webkit-border-radius: 0px;
+	-khtml-border-radius:  0px;
+	border-radius:         0px;
+}
+
+.red { background: #FF0000; }
+.yellow { background: #FFD700; }
+.green { background: #009900; }
+.black { background: #814100; }
+
+.lgrey { background: #CCCCCC; }
+.mgrey { background: #888888; }
+.dgrey { background: #333333; }
+.bgrey { background: #000000; }
